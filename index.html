@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TravelMe</title>
+</head>
+
+<body style="background-image: url(img/background.png); background-repeat: no-repeat; background-size: cover;">
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-sm justify-content-end">
+        <!-- <img src="img/logo.png" alt="" class="d-inline-block align-text-top"> -->
+        <div class="collapse navbar-collapse flex-grow-0 ml-auto mr-1" >
+            <ul class=" navbar-nav text-right">
+            <li class="nav-item active">
+                <button type="button" class="btn btn-primary mx-4 d-block" data-bs-toggle="modal" data-bs-target="#modalForm">
+                    Login
+                </button>
+        
+                <!-- Modal -->
+                <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label class="form-label">Email Address</label>
+                                        <input type="text" class="form-control" id="username" name="username" placeholder="Username" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password" />
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="rememberMe" />
+                                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                                    </div>
+                                    <div class="modal-footer d-block">
+                                        <p class="float-start">Not yet account <a href="#">Sign Up</a></p>
+                                        <button type="submit" class="btn btn-warning float-end">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            </ul>
+        </div>
+    </nav>
+<!-- Body -->
+    <div class="container">
+        <div class="row w-100 align-items-center">
+            <div class="col-6">
+                <div class="judul">
+                    <span>
+                        <h5>Lorem ipsum</h5>
+                    </span>
+                </div>
+                <div class="title">
+                    <h1>Explore, travel, love.</h1>
+                </div>
+                <h5 class="subtitle">Lorem ipsum, atau ringkasnya lipsum, adalah teks standar yang
+                    ditempatkan untuk mendemostrasikan elemen grafis atau presentasi
+                    visual seperti font, tipografi, dan tata letak</h5>
+                <span><a href="">Stops</a></span>
+                <span><a href="">Experiences</a></span>
+                <span><a href="">Tours</a></span>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+        <div class="row w-100 align-items-center" style="margin-top: 30px; margin-left: 30px;">
+            <div class="card-group">
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 10px">Where you go?</h5>
+                        <p class="card-text" style="font-size: 8px">Select a region.</p>
+                    </div>
+                </div>
+                <div class="card  card-custom">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-size: 10px;">Where you go?</h5>
+                        <p class="card-text" style="font-size: 8px">Select a region.</p>
+                    </div>
+                </div>
+                <div class="card card-custom">
+                    <div class="card-body ">
+                        <h5 class="card-title" style="font-size: 10px">Where you go?</h5>
+                        <p class="card-text" style="font-size: 8px">Select a region.</p>
+                    </div>
+                </div>
+                <div class="card card-custom">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-primary" style="font-size: 10px" >Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -->
+
+<!-- Bootstrap JS -->
+<script src="https://www.markuptag.com/bootstrap/5/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

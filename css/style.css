@@ -1,0 +1,66 @@
+.subtitle {
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: white;
+
+}
+
+.judul h5{
+    margin-top: 150px;
+    color: white;
+}
+.title h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: white;
+}
+.col-6 a   {
+    color: white;
+    padding-right: 50px;
+    text-decoration:none;
+    
+    }
+
+    .card-body {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-left: 30px;
+        margin-top: 15px;
+        
+
+    }
+    .card-title {
+        margin-bottom: 0px;
+    }
+.card-custom {
+    height : 60px;
+    width: 150px;
+    }
+.card img {
+    background-size: cover;
+    width: 245px;
+    height: 150px;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.btnCustom a {
+    margin-right: 10px;
+    background-color: rgb(24, 179, 24);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+    /* .card-1 {
+        align-items: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: rgb(185, 185, 185);
+    }     */
